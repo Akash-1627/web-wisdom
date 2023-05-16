@@ -13,6 +13,8 @@ body{
     padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
+    padding-bottom: 15px;
+    z-index: 1000;
 }
 .navbar{
     display: flex;
@@ -43,7 +45,21 @@ body{
     font-size: 17px;
 } 
 
-.signbtn{
-
+.signbtn button{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+}
+.signbtn button:hover{
+    background-color: transparent;
+    
+    color: #fff;
 }
 
